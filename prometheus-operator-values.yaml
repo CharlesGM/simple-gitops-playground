@@ -1,0 +1,5 @@
+prometheusOperator:
+  createCustomResource: false
+
+alertmanager:
+  enabled: false
