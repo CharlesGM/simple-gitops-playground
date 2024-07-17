@@ -11,9 +11,6 @@ resource "helm_release" "argocd" {
   version    = "4.10.5"
 }
 
-
-
-
 resource "kubernetes_namespace" "monitoring" {
   metadata {
     name = "monitoring"
